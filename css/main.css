@@ -1,0 +1,45 @@
+/*setear CSS*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #303030;
+  font-family: 'Handlee', cursive;
+
+}
+
+/*clases reutilizables*/
+.text-uppercase {
+ text-transform: uppercase;
+}
+
+/*clases específicas*/
+li a{
+  color: inherit;
+  text-decoration: none;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+  margin: 5px;
+}
+
+.logo-header {
+  width: 200.px
+}
+
+header{
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.box-header {
+  display: inline-block;
+}
